@@ -1,0 +1,99 @@
+{
+    "editor.fontFamily": "Iosevka-extralight",
+    "editor.fontLigatures": true,
+    "window.zoomLevel": 0,
+    "editor.fontSize": 16,
+    "editor.fontWeight": "400",
+    "editor.minimap.enabled": false,
+    "workbench.editor.enablePreview": false,
+    "files.autoSave": "onFocusChange",
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "[python]": {
+        "editor.defaultFormatter": "iansan5653.format-python-docstrings"
+    },
+    "python.venvPath": "~/dev/Envs",
+    "python.venvFolders": [
+        "/Users/liavkoren/dev/Envs/",
+        "/Users/liavkoren/Envs/",
+        "Envs",
+        "dev/Envs",
+        "/usr/local/virtualenvs/"
+    ],
+    "terminal.integrated.fontSize": 16,
+    "terminal.integrated.fontWeight": "400",
+    "terminal.integrated.fontWeightBold": "normal",
+    "python.linting.pylintUseMinimalCheckers": false,
+    "python.linting.pylintArgs": [
+        "--disable=C0111"
+    ],
+    "statusbarerror.color.hint": "#e3ebef",
+    "statusbarerror.wholeLine.show": true,
+    "git.ignoreLegacyWarning": true,
+    "gitlens.advanced.messages": {
+        "suppressGitVersionWarning": true
+    },
+    "terminal.integrated.lineHeight": 1.2,
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.cursorWidth": 2,
+    "python.defaultInterpreterPath": "/usr/local/virtualenvs/canon-py2/bin/python",
+    "cSpell.ignoreWords": [
+        "centos",
+        "liavkoren"
+    ],
+    "workbench.startupEditor": "newUntitledFile",
+    "python.jediEnabled": false,
+    "python.linting.pylintPath": "/usr/local/virtualenvs/canon-py2/bin/pylint",
+    "python.languageServer": "Pylance",
+    "workbench.sideBar.location": "left",
+    "workbench.activityBar.visible": false,
+    "pylance.insidersChannel": "daily",
+    "python.analysis.extraPaths": [
+        "/canon-api/python"
+    ],
+    "python.linting.pylintEnabled": true,
+    "workbench.colorTheme": "Ayu Dark Bordered",
+    "workbench.colorCustomizations": {
+        "[Ayu Dark Bordered]": {
+            "window.activeBorder": "#4c3011",
+            "editor.lineHighlightBackground": "#cabb105b",
+            "editorGroup.border": "#445f7cd7",
+            "editorGroupHeader.tabsBorder": "#3f3f0a",
+            "editorGroupHeader.tabsBackground": "#1e2226",
+
+            "terminal.border": "#66431b",
+            "terminal.background": "#0a0e14",
+            "terminal.foreground": "#d8d6d0",
+            "terminalCursor.foreground": "#edb44b",
+            "editor.background": "#0a0e14",
+            "focusBorder": "#347890",
+            "panel.background": "#25261e",
+            "panel.border": "#7f5422",
+            "editor.foreground": "#d8d6d0",  // This is actuall the text color !
+            "editorWidget.foreground": "#edb44b", // used, eg, in the select py interpreter thingy
+
+
+        }
+    },
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": ["source.python"],
+                "settings": {
+                    "foreground": "#d8d6d0"
+                }
+            },
+            {
+                "scope": ["comment"],
+                "settings": {
+                    "foreground": "#895a17"
+                }
+            },
+
+        ]
+    },
+    "terminal.integrated.rendererType": "dom"
+
+
+}
